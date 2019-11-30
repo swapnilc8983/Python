@@ -6,8 +6,8 @@
 from googletrans import Translator # Import Translator 
 translator = Translator() # Set As Variable 
 def Spin(abc): 
-    a = translator.translate(abc, dest = 'en') # dest = Language to transale & abc is Content 
-    b = translator.translate(a.text, dest = 'fr') # a.text for fetch text 
+    a = translator.translate(abc, dest = 'en') # dest = Language to transale & abc is Content ex: en = english
+    b = translator.translate(a.text, dest = 'fr') # a.text for fetch only text 
     c = translator.translate(b.text, dest = 'de')
     d = translator.translate(c.text, dest = 'it')
     e = translator.translate(d.text, dest = 'es')
