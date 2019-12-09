@@ -18,11 +18,11 @@ grade = str(input("Grade: ").capitalize())
 
 personSalary(salary, grade)
 
-------------
+#------------
 #Input: 
 #Basic Salary : 10000
 #Grade: a
---------------
+#--------------
 #output: 
 #Total Salary: 17600
-------------
+#------------
