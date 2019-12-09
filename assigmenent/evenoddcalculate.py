@@ -9,3 +9,8 @@ for i in list1:
     else:
         odd_no = odd_no + int(i)
 print(even_No , odd_no)
+
+#------Input---------
+#Enter No: 234
+#------Input---------
+#6 3
