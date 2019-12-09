@@ -10,10 +10,10 @@ def personSalary(salary, grade):
         
         pf = (11/100 * salary)          
         
-        totalsalary = round(float( salary + hra + da + allow - pf))
+        totalsalary = int( salary + hra + da + allow - pf))
         print("Total Salary: {}" .format(totalsalary)) 
 
-salary = float(input("Basic Salary : "))
+salary = round(float(input("Basic Salary : ")))
 grade = str(input("Grade: ").capitalize())
 
 personSalary(salary, grade)
